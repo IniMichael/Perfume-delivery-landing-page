@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color:rgb(255, 255, 237);
+    height: 1650px;
+    width: 100%;
+    padding: 60px 40px;
+}
+
+.image{
+    background-image: url(./assets/images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 900px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.main{
+    padding: 50px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#perf{
+    color: gray;
+    font-size: 35px;
+    font-family: monospace;
+    letter-spacing: 15px;
+}
+
+h1.gabrielle{
+    font-size: 90px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 80px;
+}
+
+.floral{
+    color: gray;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+.dollar{
+    color: rgba(6, 107, 84, 0.529);
+    font-size: 80px;
+    font-weight: 900;
+    margin-bottom: 35px;
+}
+
+.button{
+    background-color: rgba(6, 107, 84, 0.529);
+    color: white;
+    width: 800px;
+    height: 120px;
+    border: none;
+    font-size: 40px;
+    font-weight:700;
+    border-radius: 20px;
+}
+
+span button{
+    color: gray;
+    font-size: 50px;
+    font-weight: normal;
+    border: none;
+    background-color: white;
+}
