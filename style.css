@@ -9,6 +9,7 @@
     height: 1650px;
     width: 100%;
     padding: 60px 40px;
+    display: none;
 }
 
 .image{
@@ -20,6 +21,7 @@
     border: none;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+    border-bottom-left-radius: 0px;
 }
 
 .main{
@@ -27,6 +29,11 @@
     background-color: white;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    width: 90%;
+    height: 1500px;
 }
 
 #perf{
@@ -73,6 +80,8 @@ span button{
     font-weight: normal;
     border: none;
     background-color: white;
+    height: 30px;
+    display: none;
 }
 
 @media screen and (min-width: 760px) {
@@ -147,7 +156,6 @@ span button{
         font-size: 15px;
         font-weight: normal;
         border: none;
-        background-color: rgb(110, 35, 35);
         height: 30px;
         display: inline;
         padding-inline-start: 20px;
