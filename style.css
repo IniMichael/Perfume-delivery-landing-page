@@ -149,17 +149,20 @@ span button{
         font-size: 45px;
         font-weight: 900;
         margin-bottom: 35px;
+        display: block;
     }
     
     span{
+        position: absolute;
+        top: 460px;
         color: gray;
         font-size: 15px;
         font-weight: normal;
         border: none;
-        height: 30px;
-        display: inline;
-        padding-inline-start: 20px;
+        height: 20px;
+        padding-left: 15px;
         background-color: white;
+        text-decoration:line-through;
     }
 
     .button{
